@@ -1,12 +1,25 @@
+// Reset Css
+@import "reset";
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+// Font Awesome
+@import 'do0kFonts/style';
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Bootstrap Vue
+@import '~bootstrap-vue/dist/bootstrap-vue.min.css';
+
+// Custom Sass Pages
+@import 'helpers';
+@import 'do0kCMS';
+
+
 
 .navbar-laravel {
   background-color: #fff;

@@ -1,0 +1,82 @@
+.dropdown-item {
+    outline: 0 !important;
+}
+
+.brand-logo {
+    font-size: 40px;
+}
+
+.forgot-text {
+    font-size: 12px;
+
+    a {
+        font-size: 14px;
+    }
+}
+
+.logo {
+    font-size: 100px;
+}
+
+.was-validated {
+    .form-control {
+        box-shadow: none !important;
+        &:valid, &:invalid {
+            border-color: $gray-400;
+        }
+
+        &:focus:valid, &:focus:invalid {
+            border-color: $dark;
+        }
+
+        &.is-invalid {
+            border-color: $red !important;
+        }
+
+        &.is-valid {
+            border-color: $green;
+        }
+    }
+
+    .custom-control-input {
+        &:valid ~ .custom-control-label {
+            color: inherit !important;
+
+            &:before {
+                background-color: $gray-300;
+            }
+        }
+
+        &.is-invalid ~ .custom-control-label {
+            color: $red !important;
+        }
+
+        &.is-valid ~ .custom-control-label {
+            color: $green !important;
+        }
+
+        &:checked ~ .custom-control-label {
+
+            &:before {
+                background-color: $dark !important;
+            }
+        }
+    }
+}
+
+.forgot-text {
+    a {
+        text-decoration: none !important;
+        color: $gray-500 !important;
+        @include transition(all, 320ms);
+
+        i {
+            font-size: 20px;
+            vertical-align: -3.5px;
+        }
+
+        &:hover {
+            color: $gray-600 !important;
+        }
+    }
+}
