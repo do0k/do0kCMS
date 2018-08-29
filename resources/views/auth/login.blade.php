@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container">
-        <div class="row justify-content-center mg-t-50">
-            <div class="col-md-4">
+    <b-container>
+        <b-row class="justify-content-center mg-t-50">
+            <b-col md="4">
                 <div class="logo w-100 text-center mb-2">
                     <i class="do0k-dook"></i>
                 </div>
@@ -58,7 +58,7 @@
                     </a>
                 </h5>
 
-            </div>
-        </div>
-    </div>
+            </b-col>
+        </b-row>
+    </b-container>
 @endsection

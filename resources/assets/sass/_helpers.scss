@@ -1,5 +1,5 @@
 // Space Helpers
-$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100); // Adjust this to include the pixel amounts you need.
+$spaceamounts: (5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 70, 80, 90, 100); // Adjust this to include the pixel amounts you need.
 $sides: (top, bottom, left, right); // Leave this variable alone
 
 @each $space in $spaceamounts {
@@ -12,4 +12,12 @@ $sides: (top, bottom, left, right); // Leave this variable alone
             padding-#{$side}: #{$space}px;
         }
     }
+}
+
+.w-20 {
+    width: 20% !important;
+}
+
+.w-80 {
+    width: 80% !important;
 }

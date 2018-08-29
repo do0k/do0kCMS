@@ -39816,6 +39816,38 @@ a.text-dark:focus {
   padding-right: 50px;
 }
 
+.mg-t-55 {
+  margin-top: 55px;
+}
+
+.pd-t-55 {
+  padding-top: 55px;
+}
+
+.mg-b-55 {
+  margin-bottom: 55px;
+}
+
+.pd-b-55 {
+  padding-bottom: 55px;
+}
+
+.mg-l-55 {
+  margin-left: 55px;
+}
+
+.pd-l-55 {
+  padding-left: 55px;
+}
+
+.mg-r-55 {
+  margin-right: 55px;
+}
+
+.pd-r-55 {
+  padding-right: 55px;
+}
+
 .mg-t-60 {
   margin-top: 60px;
 }
@@ -39974,6 +40006,14 @@ a.text-dark:focus {
 
 .pd-r-100 {
   padding-right: 100px;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.w-80 {
+  width: 80% !important;
 }
 
 .dropdown-item {

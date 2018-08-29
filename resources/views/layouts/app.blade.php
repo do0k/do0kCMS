@@ -22,7 +22,9 @@
 </head>
 <body>
 <div id="app">
-    <b-navbar toggleable="md" type="dark" variant="dark" class="py-0">
+    @include('partials.nav.main')
+
+    {{--<b-navbar toggleable="md" type="dark" variant="dark" class="py-0">
 
         <b-container>
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
@@ -70,7 +72,7 @@
             </b-navbar-nav>
         </b-container>
 
-    </b-navbar>
+    </b-navbar>--}}
 
     <main class="py-4">
         @yield('content')

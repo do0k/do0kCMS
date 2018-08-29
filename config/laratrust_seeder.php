@@ -11,15 +11,27 @@ return [
             'users' => 'c,r,u,d',
             'profile' => 'r,u'
         ],
-        'user' => [
+        'editor' => [
+            'users' => 'c,r,u,d',
+            'profile' => 'r,u'
+        ],
+        'author' => [
+            'users' => 'c,r,u,d',
+            'profile' => 'r,u'
+        ],
+        'contributor' => [
+            'users' => 'c,r,u,d',
+            'profile' => 'r,u'
+        ],
+        'supporter' => [
+            'users' => 'c,r,u,d',
+            'profile' => 'r,u'
+        ],
+        'subscriber' => [
             'profile' => 'r,u'
         ],
     ],
-    'permission_structure' => [
-        'cru_user' => [
-            'profile' => 'c,r,u'
-        ],
-    ],
+    'permission_structure' => [],
     'permissions_map' => [
         'c' => 'create',
         'r' => 'read',
